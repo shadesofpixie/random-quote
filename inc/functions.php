@@ -38,7 +38,7 @@ $quotes = [
 // Create the getRandomQuote function and name it getRandomQuote
 function getRandomQuote($array) {
     // Get length of array
-    $arrayLength = count($array) - 1;
+    $arrayLength = (count($array) - 1);
 
     // Generate a random number between 0 and array length
     $randomNum = rand(0, $arrayLength);
